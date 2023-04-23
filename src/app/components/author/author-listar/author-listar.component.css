@@ -1,0 +1,9 @@
+.titulo h1{
+  margin-top: 20px;
+  text-align: center;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(34, 35, 35);
+}
+.mat-mdc-raised-button.retro {
+  background-color: rgb(84, 220, 147) ;
+}
