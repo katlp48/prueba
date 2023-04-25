@@ -11,10 +11,14 @@ import {MatInputModule} from '@angular/material/input';
 import {MatDatepickerModule} from '@angular/material/datepicker';
 import { MatNativeDateModule } from '@angular/material/core';
 import {MatButtonModule} from '@angular/material/button';
+import { AuthorComponent } from './components/author/author.component';
+import { AuthorListarComponent } from './components/author/author-listar/author-listar.component';
 import { BookComponent } from './component/book/book.component';
 @NgModule({
   declarations: [
     AppComponent,
+    AuthorComponent,
+    AuthorListarComponent,
     BookComponent
   ],
   imports: [
